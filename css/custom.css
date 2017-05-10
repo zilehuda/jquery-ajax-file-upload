@@ -1,0 +1,16 @@
+.file_drag_area  
+           {  
+                 
+                height:200px;  
+                border-width: 2px;
+                margin-bottom: 20px;
+                color: #ccc;
+                border:2px dashed #ccc;  
+                line-height:200px;  
+                text-align:center;  
+                font-size:24px;  
+           }  
+           .file_drag_over{  
+                color:#000;  
+                border-color:#000;  
+           }  

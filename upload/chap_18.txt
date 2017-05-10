@@ -1,0 +1,20 @@
+-The loss function tells us which type of mistakes we should be more concerned about. 
+The best decision function is the function that yields the lowest expected loss
+-http://www.cs.csi.cuny.edu/~imberman/ai/Entropy%20and%20Information%20Gain.htm
+-Entropy is a measure of how "mixed up" an attribute is.  
+It is sometimes equated to the purity or impurity of a variable.
+-High Entropy means that we are sampling from a uniform (boring) distribution.  
+Would have a flat histogram, therefore we have an equal chance of obtaining any possible value.
+-Low Entropy means that the distribution varies, it has peaks and valleys. 
+ The histogram of frequency distribution would have many lows and maybe one or two highs.  Hence it is more predictable.
+-entropy: controls how a dt decide where to split data, measure of impurity of data.
+-at each node,split tree with largest information gain.
+-precision: of all the patient where we predict y=1, what fraction actually has cancer./no. of selected item that are correct.
+-racall: of all the patient that actually have cancer, what fraction did we correctly detect as hving cancer. 
+no. of  correct item that are selected 
+-https://www.youtube.com/watch?v=225zo-kjPQo&index=68&list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW
+
+
+0
+4
+2.0

@@ -1,0 +1,12 @@
+alpha beta
+
+
+minimizaer
+if child value<parent.maximizer.value prune
+-value=+infinity
+
+
+
+maximizaer
+if child value>parent.minimizer.value prune
+-value=-infinity
